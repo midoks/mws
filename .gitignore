@@ -1,5 +1,6 @@
-#P
+# P
 .DS_Store
+mws
 
 # Object files
 *.o

@@ -4,12 +4,13 @@
 #include "times.h"
 #include "connect.h"
 #include "deamon.h"
+
 /**
  * @func Command Manger MinWebServer
- * -m start 启动
- * -m stop 停止
- * -m restart 重新启动
- * -v 版本信息
+ * -m start 
+ * -m stop
+ * -m restart
+ * -v version
  */
 int main(int argc, char *argv[])
 {
