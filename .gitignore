@@ -1,3 +1,6 @@
+#P
+.DS_Store
+
 # Object files
 *.o
 *.ko
@@ -16,6 +19,3 @@
 *.exe
 *.out
 *.app
-
-#P
-.DS_Store
