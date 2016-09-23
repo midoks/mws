@@ -18,4 +18,4 @@
 *.app
 
 #P
-*.DS_Store
+.DS_Store
