@@ -1,6 +1,9 @@
 # P
-.DS_Store
+.*
+*.DS_Store
 mws
+bin/*
+autom4te.cache/*
 
 # Object files
 *.o

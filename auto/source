@@ -1,0 +1,12 @@
+# Copyright (C) midoks
+
+CORE_INCS="src/app"
+
+
+CORE_DEPS="src/app/mws.h"
+
+
+CORE_SRCS="src/app/mws.c \
+	src/app/deamon.c \
+	src/app/times.c \
+	src/app/connect.c"
