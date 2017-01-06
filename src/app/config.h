@@ -2,7 +2,6 @@
 #ifndef _MWS_CONFIG_H_
 #define _MWS_CONFIG_H_
 
-//常用库
 #include <stdio.h>
 #include <unistd.h>
 #include <string.h>
@@ -18,8 +17,5 @@
 #include <syslog.h>
 #include <sys/param.h>
 #include <signal.h>
-
-
-
 
 #endif
