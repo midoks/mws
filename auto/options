@@ -2,7 +2,9 @@
 
 help=no
 
-CQ_PREFIX=/usr/local/mws
+
+BIN_FILE=mws
+CQ_PREFIX=/usr/local/$BIN_FILE
 CQ_OBJS=objs
 CC=${CC:-gcc}
 

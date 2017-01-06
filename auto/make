@@ -3,6 +3,7 @@
 #ready
 test -d $CQ_OBJS || mkdir -p $CQ_OBJS
 cp -rf ./src $CQ_OBJS
+cp -rf ./conf $CQ_OBJS
 
 echo "creating $CQ_MAKEFILE"
 
@@ -75,8 +76,8 @@ ngx_deps=`echo $cq_deps \
 #DEPS
 cat << END                                                    >> $CQ_MAKEFILE
 
-$CQ_OBJS${cq_dirsep}mws${cq_binext}: $cq_deps$cq_spacer
-	\$(LINK) -o $CQ_OBJS${cq_dirsep}mws${cq_binext}${cq_binext} $cq_deps
+$CQ_OBJS${cq_dirsep}${BIN_FILE}${cq_binext}: $cq_deps$cq_spacer
+	\$(LINK) -o $CQ_OBJS${cq_dirsep}${BIN_FILE}${cq_binext}${cq_binext} $cq_deps
 
 END
 

@@ -24,12 +24,9 @@ void  cli_mws_start()
 
 	
 	while(1){
-		sleep(1);//ÀØ√ﬂ ±º‰√Î
+		sleep(1);
 		printf("current dir:%s\n", buf);
-		
 	}
-	
-	
 }
 
 void  cli_mws_stop()
