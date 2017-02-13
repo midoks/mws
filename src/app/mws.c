@@ -2,10 +2,18 @@
 
 #include "config.h"
 #include "mws.h"
-#include "version.h"
 #include "times.h"
 #include "connect.h"
 #include "deamon.h"
+
+
+void mws_cmd_send(){
+
+}
+
+void mws_cmd_req(){
+	
+}
 
 //int s;
 void  cli_mws_start()

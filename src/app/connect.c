@@ -28,8 +28,8 @@ void mws_ws_init(){
 	//fill in sockaddr_in
 	bzero((struct sockaddr*)&addr, sizeof(addr));
 	addr.sin_family = AF_INET;
-	addr.sin_port = htons(80);
-	addr.sin_addr.s_addr = inet_addr("192.168.157.129");
+	addr.sin_port = htons(8000);
+	addr.sin_addr.s_addr = inet_addr("0.0.0.0");
 
 	//socket bind
 	if(bind(s, (struct sockaddr*)&addr, sizeof(struct sockaddr_in))<0){

@@ -4,6 +4,7 @@
 test -d $CQ_OBJS || mkdir -p $CQ_OBJS
 cp -rf ./src $CQ_OBJS
 cp -rf ./conf $CQ_OBJS
+cp -rf ./docs/html $CQ_OBJS
 
 echo "creating $CQ_MAKEFILE"
 
